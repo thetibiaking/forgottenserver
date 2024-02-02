@@ -43,4 +43,7 @@ PlayerStorageKeys = {
 
 	-- Bestiary:
 	bestiaryKillsBase = 400000,
+
+	boostedMonster = 30036,
+	boostedBoss = 30037
 }
