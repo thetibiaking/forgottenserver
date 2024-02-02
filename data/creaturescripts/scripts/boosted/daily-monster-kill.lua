@@ -13,7 +13,7 @@ function onKill(creature, target) -- SHOULD BE REFAC TO LIB FUNCTIONS ALSO
         return true
     end
 
-    local boostedMonsterIndex = getGlobalStorageValue(BOOSTED_MONSTER)
+    local boostedMonsterIndex = getGlobalStorageValue(boostedCreature)
     if boostedMonsterIndex > 0 and boostedMonsterIndex <= #boostedMonsterList then
         local boostedMonster = boostedMonsterList[boostedMonsterIndex]
         -- DISABLE IF IN PRODUCTION ONLY FOR TESTS
